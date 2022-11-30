@@ -84,7 +84,7 @@ type Config struct {
 	loadedFromFilepath string
 }
 
-// CRLConfig represents config options for CRL generation
+// CRLConfig represents config options for CRL generation.
 type CRLConfig struct {
 	Enabled          bool                  `json:"enabled"`
 	GenerateOnRevoke bool                  `json:"generateOnRevoke,omitempty"`
